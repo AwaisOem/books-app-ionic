@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen  and (max-width: 319px) {
+    .bookCard{
+        min-width : 100% !important;
+        width : 100% !important;
+        height: 300px !important; 
+    }
+    .margin-bottom-minus{
+        margin-bottom: -150px !important;
+    }
+}
+@media only screen  and (max-width: 350px) and (min-width: 319px) {
+    
+    .margin-bottom-minus{
+        margin-bottom: -200px !important;
+    }
+}
+@media only screen  and (min-width: 376px)   {
+    .bookCard{
+        min-width : 175px !important;
+        width : 175px !important;
+        height: 250px !important; 
+    }
+    .margin-bottom-minus{
+        margin-bottom: -250px !important;
+    }
+   
+}
+.noScrollBar::-webkit-scrollbar{
+    background: transparent;
+}
+.noScrollBar::-webkit-scrollbar-button{
+    background-color: transparent;
+}
+.noScrollBar::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+.bookCard{
+    min-width : 140px;
+    width : 140px;
+    height: 230px; 
+}
+.margin-bottom-minus{
+    margin-bottom: -220px;
+}

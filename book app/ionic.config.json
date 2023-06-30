@@ -1,0 +1,7 @@
+{
+  "name": "OEM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
